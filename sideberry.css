@@ -1,0 +1,51 @@
+.Sidebar {
+    --bg: transparent;
+  background-image: none;
+  }
+  
+  .TabsPanel .container,
+  #root[data-pinned-tabs-position="panel"] .PinnedDock {
+    width: calc(100% - 18px);
+    margin: 9px;
+    margin-bottom: 0px;
+    background-color: transparent;
+  background-image: none;
+  }
+  
+  .ScrollBox {
+    background-image: none;
+    background-color: transparent;
+  }
+  
+  .Tab, .PinnedTab {
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #3D3D3D;
+    background-color: transparent;
+height: 30px;
+  }
+
+.PinnedTab {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+  
+  .Tab[data-active],
+  .PinnedTab[data-active] {
+    border: 1px solid #323232;
+    box-shadow: 0px 3px 4px #202020;
+  }
+
+  .PinnedDock::after {
+    box-shadow: none;
+    background-color: #5B5B5B;
+    height: 2px;
+  }
+  
+  .Sidebar .settings-btn {
+    display: none;
+  }
+  
+  .Sidebar:hover .settings-btn {
+    display: flex;
+  }
