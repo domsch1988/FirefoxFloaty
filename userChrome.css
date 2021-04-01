@@ -1,7 +1,7 @@
 :root {
 --col_bg: #121212;
 --col_fg: #ffda70;
---bg_image: url('https://w.wallhaven.cc/full/6o/wallhaven-6oddjq.jpg');
+--bg_image: url('$Insert your own image here$');
 --radius_main: 10px;
 --margin_main: 10px;
 --shadow_main: 3px 3px 5px 0px rgba(0,0,0,0.6);
