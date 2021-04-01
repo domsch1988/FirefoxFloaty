@@ -1,0 +1,69 @@
+:root {
+--col_bg: #121212;
+--col_fg: #ffda70;
+--bg_image: url('https://w.wallhaven.cc/full/6o/wallhaven-6oddjq.jpg');
+--radius_main: 10px;
+--margin_main: 10px;
+--shadow_main: 3px 3px 5px 0px rgba(0,0,0,0.6);
+
+}
+
+#TabsToolbar, #sidebar-header, .sidebar-splitter, #back-button, #forward-button {
+    visibility: collapse;
+}
+
+#sidebar-box {
+    margin-top: 15px;
+    margin-left: var(--margin_main);
+    margin-bottom: var(--margin_main);
+}
+
+#appcontent {
+    margin: var(--margin_main);
+}
+
+#nav-bar-customization-target {
+    padding-left: 50px;
+}
+
+#nav-bar {
+    margin-top: var(--margin_main);
+    margin-left: var(--margin_main);
+    margin-right: var(--margin_main);
+}
+
+:root:not([uidensity="compact"]) #PanelUI-button {
+    padding-inline-start: 5px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    border-inline-start: 0px solid black !important;
+}
+
+body {
+    background-image: var(--bg_image);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.browserStack, #sidebar, #sidebar-box,
+#appcontent, #tabbrowser-tabbox, #tabbrowser-tabpanels, .browserSidebarContainer,
+.browserContainer, browser, #nav-bar {
+    border-radius: var(--radius_main);
+    box-shadow: var(--shadow_main) !important;
+}
+
+#navigator-toolbox {
+    border-bottom: 0px solid black !important;
+    margin-left: 286px;
+    z-index: 1;
+}
+
+#browser {
+    margin-top: -50px;
+}
+
+#appcontent {
+    margin-top: 60px;
+}
